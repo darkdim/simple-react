@@ -10,3 +10,5 @@ react-app:
   footer: true
   js:
     js/index.js: { preprocess: 0, attributes: { type: text/babel } }
+  css:
+    css/react-simple.css
