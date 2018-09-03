@@ -12,4 +12,5 @@
 function react_simple_preprocess_node(&$variables) {
   $node = \Drupal::request()->attributes->get('node');
   $variables['node_title'] = $node->getTitle();
+  $variables['nid'] = $variables['node']->id();
 }
